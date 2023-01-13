@@ -174,7 +174,7 @@ export default function PrimaryNavBar() {
             noWrap
           >
             {' '}
-            Coinerslot
+            Fuxchain
           </Typography>
         </div>
         <div style={{ marginRight: '2%' }}>
