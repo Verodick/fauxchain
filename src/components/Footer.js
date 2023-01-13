@@ -1,7 +1,7 @@
 import React from 'react'
 import { AppBar, Toolbar } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
-import logo from '../libs/Data/img/logo.jpg'
+import logo from '../libs/Data/img/logo.jpeg'
 import { useRecoilState } from 'recoil'
 import { currentHomeScreen } from '../recoil'
 import { useCustomStyles } from '../constants/styles'
