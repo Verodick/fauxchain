@@ -5,22 +5,22 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 import { setDoc, doc, getFirestore, updateDoc } from 'firebase/firestore'
 
 const firebaseApp = initializeApp({
-  apiKey: 'AIzaSyCqd4E936F5yVvZE8QYCnFB1lVhqW2khxU',
-  authDomain: 'coinerslot-c8f18.firebaseapp.com',
-  projectId: 'coinerslot-c8f18',
-  storageBucket: 'coinerslot-c8f18.appspot.com',
-  messagingSenderId: '1014304504170',
-  appId: '1:1014304504170:web:61d6fa57afae42cdf24d13',
-  measurementId: 'G-QE70P1DNRJ',
+  // apiKey: 'AIzaSyCqd4E936F5yVvZE8QYCnFB1lVhqW2khxU',
+  // authDomain: 'coinerslot-c8f18.firebaseapp.com',
+  // projectId: 'coinerslot-c8f18',
+  // storageBucket: 'coinerslot-c8f18.appspot.com',
+  // messagingSenderId: '1014304504170',
+  // appId: '1:1014304504170:web:61d6fa57afae42cdf24d13',
+  // measurementId: 'G-QE70P1DNRJ',
  
 
-  // apiKey: "AIzaSyC62zGqTPsD6qhHLgp71LvVUxwWFQK8yVQ",
-  // authDomain: "raiseproduction.firebaseapp.com",
-  // projectId: "raiseproduction",
-  // storageBucket: "raiseproduction.appspot.com",
-  // messagingSenderId: "554034653296",
-  // appId: "1:554034653296:web:bcecfd5cb164991b8fecb5",
-  // measurementId: "G-C28V5K3D03"
+  apiKey: "AIzaSyC62zGqTPsD6qhHLgp71LvVUxwWFQK8yVQ",
+  authDomain: "raiseproduction.firebaseapp.com",
+  projectId: "raiseproduction",
+  storageBucket: "raiseproduction.appspot.com",
+  messagingSenderId: "554034653296",
+  appId: "1:554034653296:web:bcecfd5cb164991b8fecb5",
+  measurementId: "G-C28V5K3D03"
 })
 
 export const user_id = 'user_mCHlzBfXCxgSAVyOOQZuC'
