@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from '../../libs/Data/img/coinerslotHero.jpg'
+import bgImage from '../../libs/Data/img/logo.jpeg'
 
 export default function HeroSection() {
   return (
